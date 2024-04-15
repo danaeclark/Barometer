@@ -7,10 +7,10 @@ It uses the AVR ATmega328p microcontroller and the provided HD44780 LCD library 
 For information regarding wiring, video examples and more go to https://github.com/danaeclark/Barometer .
 
 Prerequisites:
-1. AVR ATmega328p microcontroller
-2. BMP180 sensor
-3. LCD display
-4. AVR-GCC compiler
+- AVR ATmega328p microcontroller
+- BMP180 sensor
+- LCD display
+- AVR-GCC compiler
 
 Usage
     Compile the code using an AVR-GCC compiler.
@@ -30,11 +30,11 @@ barometer.c
     Main Loop
         The main loop of the code continuously reads temperature, pressure, and altitude from the BMP085 sensor and displays them on the LCD display.
         
-        Reads temperature, pressure, and altitude
-        Displays atmospheric pressure (Pa) on the LCD
-        Displays temperature (Celsius) on the LCD
-        Displays altitude (meters) on the LCD
-        Repeat the loop
+        1. Reads temperature, pressure, and altitude
+        2. Displays atmospheric pressure (Pa) on the LCD
+        3. Displays temperature (Celsius) on the LCD
+        4. Displays altitude (meters) on the LCD
+        5. Repeat the loop
         
 compile_script.py
     This compile script is compatible with Mac computers. Line 35, " path_win_avr = '/usr/local/avr/bin/' " will need to be adapted depending on the path of the user.
