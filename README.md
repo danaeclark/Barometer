@@ -29,13 +29,13 @@ barometer.c
         BMP085_CalculateAltitude(): Calculates the altitude in meters based on pressure and sea level pressure.
     Main Loop
         The main loop of the code continuously reads temperature, pressure, and altitude from the BMP085 sensor and displays them on the LCD display.
-
+        
         Reads temperature, pressure, and altitude
         Displays atmospheric pressure (Pa) on the LCD
         Displays temperature (Celsius) on the LCD
         Displays altitude (meters) on the LCD
         Repeat the loop
-
+        
 compile_script.py
     This compile script is compatible with Mac computers. Line 35, " path_win_avr = '/usr/local/avr/bin/' " will need to be adapted depending on the path of the user.
     The folllowing line can be used in the terminal to compile the code: "python3 compile_script.py 4 /dev/cu.usbmodem14201" 
