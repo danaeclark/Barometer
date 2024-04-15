@@ -4,6 +4,7 @@
 The files provided are used to operate the BMP180 (Barometric Pressure Chip). 
 This is a demonstration of interfacing with the BMP180 sensor to read temperature, pressure, and calculate altitude. 
 It uses the AVR ATmega328p microcontroller and the provided HD44780 LCD library to display sensor readings on an LCD screen.
+The barometer.zip file contains all of the code needed for this project.
 
 ### Prerequisites:
 - AVR ATmega328p microcontroller
